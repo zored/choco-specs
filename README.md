@@ -2,4 +2,4 @@
 - [igdm](./igdm/README.md)
 
 # Development
-`./project.sh`
+Use `./project.sh [build|install|push]`.

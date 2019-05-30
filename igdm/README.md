@@ -1,3 +1,3 @@
 # IGDM Chocolatey package
 
-See [spec](./igdm.nuspec)
+See [spec](./main.nuspec)

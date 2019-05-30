@@ -3,14 +3,14 @@
 set -ex
 
 case $1 in
-	build)
+	build|b)
 		choco pack */main.nuspec
 		;;
-	install)
+	install|i)
 		package=${2:-'igdm'}
 		choco install $package -dvs .
 		;;
-	push)
+	push|p)
 		nupkg=${2:-*.nupkg}
 		choco push $nupkg
 		;;
