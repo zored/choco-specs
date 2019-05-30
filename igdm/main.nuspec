@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>igdm</id>
+    <version>2.6.5</version>
+    <title>IG:dm</title>
+    <authors>IG:dm contributors</authors>
+    <owners>IG:dm</owners>
+    <licenseUrl>https://github.com/ifedapoolarewaju/igdm/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://igdm.me/</projectUrl>
+    <iconUrl>https://igdm.me/img/icon.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description><![CDATA[IG:dm is Instagram direct messages on your computer.
+]]></description>
+    <summary>Instagram direct messages on your computer.</summary>
+    <releaseNotes>[Release notes](https://github.com/ifedapoolarewaju/igdm/releases/tag/v2.6.5)</releaseNotes>
+    <copyright>Copyright © 2019 IG:dm contributors.</copyright>
+    <tags>igdm instagram direct social network chat</tags>
+    <projectSourceUrl>https://github.com/ifedapoolarewaju/igdm</projectSourceUrl>
+    <bugTrackerUrl>https://github.com/ifedapoolarewaju/igdm/issues</bugTrackerUrl>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" exclude="**\*.Tests.ps1" />
+  </files>
+</package>
